@@ -1,0 +1,135 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background: #f3f3f3;
+	border-top: 5px solid  #1db9e8;
+}
+.header_topline {
+	padding: 40px 0;
+}
+.header_topline a {
+	font-size: 20px;
+}
+.logo {
+	float: left;
+}
+.buttons {
+	float: right;
+	margin-top: 20px;
+}
+.icon_buttons {
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fdfdfd;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+	margin-right: 2px;
+	color: #656565;
+}
+.icon_buttons:hover {
+	background-color: #1db9e8;
+	color: #fff;
+}
+.seach_buttons {
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #1db9e8;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+	margin-right: 3px;
+	color: #fff;
+}
+.navbar {
+	margin-bottom: 50px;
+}
+ul.menu {
+	background: #fdfdfd;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+}
+ul.menu li {
+	background: #fdfdfd;
+	float: left;
+	position: relative;
+	list-style: none;
+	width: 190px;
+	text-align: center;
+	border-right: 2px solid #f3f3f3;
+}
+ul.menu li a {
+	padding: 20px 20px;
+	color: #656565;
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+}
+ul.menu li a:hover {
+	background: #fff;
+}
+.submenu {
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.submenu li {
+	float: none;
+	width: 200px;
+	top: 20px;
+	z-index: 100;
+	box-shadow: 0 1px 0 0 rgba(91, 152, 170, 0.1);
+}
+ul.submenu li a {
+	text-align: left;
+	color: #3591ac;
+	font-size: 15px;
+	padding: 10px 30px;
+}
+ul.menu li ul, 
+ul.menu li ul.submenu li ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+ul.menu li:hover ul {
+	display: block;
+	position: absolute;
+}
+ul.submenu li:hover a {
+	color: #1db9e8;
+}
