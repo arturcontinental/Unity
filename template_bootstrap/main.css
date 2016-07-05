@@ -87,7 +87,7 @@ ul.menu li {
 	float: left;
 	position: relative;
 	list-style: none;
-	width: 190px;
+	width: 16.66%;
 	text-align: center;
 	border-right: 2px solid #f3f3f3;
 }
@@ -133,3 +133,40 @@ ul.menu li:hover ul {
 ul.submenu li:hover a {
 	color: #1db9e8;
 }
+.sider_container {
+	background-image: url(images/nature.jpg);
+	position: relative;
+}
+.sider_container img {
+	width: 100%;
+	height: 675px;
+}
+.next_button, .prev_button {
+	background-color: #1db9e8;
+	color: #fff;
+	cursor: pointer;
+	font-size: 25px;
+	padding: 0 15px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+	display: none;
+}
+.next_button {
+	right: 0px;
+}
+.prev_button {
+	left: 0px;
+}
+.next_button:hover, .prev_button:hover {
+	font-size: 40px;
+	padding: 0 25px;
+}
+.sider_container:hover .next_button {
+display: block;
+}
+.sider_container:hover .prev_button {
+	display: block;
+}
+
+
